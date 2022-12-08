@@ -1,0 +1,50 @@
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.card {
+  margin-top: 1%;
+  text-align: center;
+  background-color:cornflowerblue;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 1%;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 2em;
+  transition-duration: 500ms;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.btn-del {
+  border-radius: 10px;
+  background-color: cadetblue;
+  margin-right: 3%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-update {
+  border-radius: 10px;
+  background-color: cadetblue;
+  margin-left: 3%;
+  font-size: 20px;
+  cursor: pointer;
+}

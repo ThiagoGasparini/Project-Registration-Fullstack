@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin: auto;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.form-users {
+  display: flex;
+  flex-direction:column;
+}
+
+.field-input {
+  font-size: 25px;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: gainsboro;
+}
+
+.error {
+  color: red;
+}
+
+.btn-submit {
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: silver;
+  margin-bottom: 2%;
+}
+
+.space {
+  margin-top: 3%;
+}
